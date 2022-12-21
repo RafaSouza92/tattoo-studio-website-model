@@ -1,0 +1,33 @@
+.sobre {
+  background-image: url(/img/cover.tattoo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 1450px;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0;
+}
+.sobre-texto {
+  text-align: center;
+  color: #cfdbd5;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+}
+.sobre-texto h1 {
+  margin-top: 100px;
+}
+@media (max-width: 600px) {
+  .sobre {
+    height: 70vh;
+    padding: 0;
+  }
+  .sobre-texto {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+  }
+}

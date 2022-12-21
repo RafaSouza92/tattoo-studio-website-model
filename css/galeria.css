@@ -1,0 +1,30 @@
+.galeria {
+  max-width: 1450px;
+  display: grid;
+  margin: 50px auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  gap: 20px;
+}
+@media (max-width: 800px) {
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+}
+main {
+  margin-top: 50px;
+}
+main h1 {
+  color: #cfdbd5;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.card-foto {
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
