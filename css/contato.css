@@ -1,6 +1,7 @@
 .contato {
   max-width: 1450px;
   margin: 50px auto;
+  padding: 20px;
 }
 .contato h1 {
   text-align: center;
@@ -70,9 +71,4 @@ form input {
 }
 .enviar:hover {
   background-color: #cfdbd5;
-}
-@media (max-width: 400px) {
-  .contato {
-    padding: 10px;
-  }
 }

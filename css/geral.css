@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  letter-spacing: 2;
 }
 a {
   text-decoration: none;
@@ -15,6 +16,7 @@ body {
   background-color: #333533;
   font-family: "Courier New", Courier, monospace;
 }
+
 img {
   display: block;
   width: 100%;

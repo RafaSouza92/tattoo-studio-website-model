@@ -22,7 +22,7 @@
     position: absolute;
     margin-top: 25px;
     right: 0;
-    background-color: #242423;
+    background-color: rgba(0, 0, 0, 0.6);
     animation: menu-anime 0.5s ease-in-out forwards;
     transition: 1s;
   }
